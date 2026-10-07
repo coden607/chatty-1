@@ -92,3 +92,7 @@ python3 ACTION_CENTER.py                 # Generates status reports in generated
 ## Secrets Management
 
 Secrets are stored outside the repo at `~/.config/chatty/secrets.env` (set via `CHATTY_SECRETS_FILE` env var). Required API keys include: `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, `XAI_API_KEY`, `OPENROUTER_API_KEY`, `STRIPE_SECRET_KEY`, `SENDGRID_API_KEY`, `TWITTER_API_KEY`/`TWITTER_API_SECRET`. Run `python3 auto_setup_api_keys.py` for guided key setup.
+
+## Shared agent skills
+
+Read and follow `AGENTS.md` before planning, editing, testing or committing. Use the complete canonical https://github.com/coden607/skills library under its shared-skills policy.
